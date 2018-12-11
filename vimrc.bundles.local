@@ -1,0 +1,6 @@
+" Some color schemes:
+Plug 'srcery-colors/srcery-vim'
+Plug 'joshdick/onedark.vim'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'arcticicestudio/nord-vim'
+

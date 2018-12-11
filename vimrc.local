@@ -1,0 +1,13 @@
+" Softtabs, 2 spaces
+set autoindent
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
+" set shiftround
+" set expandtab
+
+" Disable tab autocomplete
+iunmap <Tab>
+
+" srcery-coloer-vim
+colorscheme srcery

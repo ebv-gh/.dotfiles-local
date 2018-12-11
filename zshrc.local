@@ -1,0 +1,4 @@
+mkdir -p /tmp/.$(whoami)-brew-locks
+export PATH="$HOME/.brew/bin:$PATH"
+
+fpath=(/nfs/2018/e/eubotnar/.brew/share/zsh-completions $fpath)
