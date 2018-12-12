@@ -4,3 +4,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'arcticicestudio/nord-vim'
 
+" Vim Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
