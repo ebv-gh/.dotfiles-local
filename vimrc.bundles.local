@@ -8,3 +8,5 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" 42 Header
+Plug 'pbondoer/vim-42header'
