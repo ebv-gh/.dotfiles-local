@@ -1,0 +1,7 @@
+alias gcm="git commit -m"
+alias ga="git add"
+
+# brew
+alias bi="brew install"
+alias bs="brew search"
+alias bci="brew cask install"
