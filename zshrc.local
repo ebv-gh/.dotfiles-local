@@ -1,7 +1,7 @@
 mkdir -p /tmp/.$(whoami)-brew-locks
 export PATH="$HOME/.brew/bin:$PATH"
 
-USER=eubotnar
-MAIL=eubotnar@student.42.us.org
+USER="eubotnar"
+MAIL="eubotnar@student.42.us.org"
 
 fpath=(/nfs/2018/e/eubotnar/.brew/share/zsh-completions $fpath)

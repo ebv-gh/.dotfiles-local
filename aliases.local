@@ -2,6 +2,23 @@ alias gcm="git commit -m"
 alias ga="git add"
 
 # brew
+alias b="brew"
 alias bi="brew install"
 alias bs="brew search"
 alias bci="brew cask install"
+
+# macOS
+alias dutil="diskutil"
+alias gcc="gcc -Wall -Wextra -Werror"
+
+# youtube-dl
+alias yt="youtube-dl"
+
+# List all network connections with nets:
+alias nets="lsof -i"
+
+# Speed test using a 100Mbyte file from OVH Hosting:
+alias speedtest="curl -o /dev/null http://ovh.net/files/100Mio.dat"
+
+# Show WAN IP address with myip:
+alias myip="curl ifconfig.co"
