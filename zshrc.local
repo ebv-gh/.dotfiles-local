@@ -1,7 +1,12 @@
 mkdir -p /tmp/.$(whoami)-brew-locks
 export PATH="$HOME/.brew/bin:$PATH"
 
+# 42 header variabiles
 USER="eubotnar"
 MAIL="eubotnar@student.42.us.org"
 
+# Completion for kitty
+kitty + complete setup zsh | source /dev/stdin
+
+# 42 brew stuff
 fpath=(/nfs/2018/e/eubotnar/.brew/share/zsh-completions $fpath)

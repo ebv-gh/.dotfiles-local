@@ -6,6 +6,7 @@ alias b="brew"
 alias bi="brew install"
 alias bs="brew search"
 alias bci="brew cask install"
+alias bug="brew upgrade"
 
 # macOS
 alias dutil="diskutil"
