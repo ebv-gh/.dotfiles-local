@@ -6,6 +6,9 @@ set shiftwidth=4
 " set shiftround
 " set expandtab
 
+" disable display of non print char
+set nolist
+
 " Disable tab autocomplete
 iunmap <Tab>
 
