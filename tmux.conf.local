@@ -1,10 +1,10 @@
 # List of plugins
 # set -g @plugin 'tmux-plugins/tpm'
-set -g @tpm_plugins ' \
-	tmux-plugins/tpm \
-	tmux-plugins/tmux-sensible \
+set -g @tpm_plugins ' 	        \
+	tmux-plugins/tpm          	\
+	tmux-plugins/tmux-sensible  \
 	tmux-plugins/tmux-resurrect \
-	MindTooth/tmux-srcery \
+	MindTooth/tmux-srcery       \
   '
 # set -g @plugin 'tmux-plugins/tmux-sensible'
 
