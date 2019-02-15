@@ -12,6 +12,9 @@ alias bug="brew upgrade"
 alias dutil="diskutil"
 alias gcc="gcc -Wall -Wextra -Werror"
 
+# VSCode
+alias code="~/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+
 # youtube-dl
 alias yt="youtube-dl"
 
