@@ -42,8 +42,8 @@ hidutil property --set '{"UserKeyMapping":
   "HIDKeyboardModifierMappingDst":0x7000000E0
   }]
 }'
-"To Key Remapping state: "
-"hidutil property --get "UserKeyMapping""
-"(null) if nothing chnaged"
-"more info:"
-"https://developer.apple.com/library/archive/technotes/tn2450/_index.html"
+# "To Key Remapping state: "
+# "hidutil property --get "UserKeyMapping""
+# "(null) if nothing chnaged"
+# "more info:"
+# "https://developer.apple.com/library/archive/technotes/tn2450/_index.html"
