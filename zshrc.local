@@ -1,6 +1,11 @@
 mkdir -p /tmp/.$(whoami)-brew-locks
 export PATH="$HOME/.brew/bin:$PATH"
 
+# ruby && gem  brew instalation path
+# norm doesnt work with brew version of ruby
+# export PATH="/nfs/2018/e/eubotnar/.brew/opt/ruby/bin:$PATH"
+# export PATH="/nfs/2018/e/eubotnar/.brew/lib/ruby/gems/2.6.0/bin:$PATH"
+
 # 42 header variabiles
 USER="eubotnar"
 MAIL="eubotnar@student.42.us.org"
