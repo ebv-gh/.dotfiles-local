@@ -5,6 +5,16 @@ export PATH="$HOME/.brew/bin:$PATH"
 USER="eubotnar"
 MAIL="eubotnar@student.42.us.org"
 
+# Quit any app gracefuly
+function quit () {
+    if [ -z "$1" ]; then 
+    # display usage if no parameters given 
+    echo “Usage: quit appname”
+    else for appname in $1;
+    do osascript -e 'quit app "'$appname'"'
+    done
+    fi }
+
 # Completion for kitty
 kitty + complete setup zsh | source /dev/stdin
 
