@@ -6,14 +6,17 @@ alias b="brew"
 alias bi="brew install"
 alias bs="brew search"
 alias bci="brew cask install"
-alias bug="brew upgrade"
+alias bug='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # macOS
 alias dutil="diskutil"
 alias gcc="gcc -Wall -Wextra -Werror"
 
+# vm's
+alias void="kitty +kitten ssh -p 2323 ebv@127.0.0.1"
+
 # youtube-dl
-alias yt="youtube-dl"
+alias yt='docker run --rm -u $(id -u):$(id -g) -v $PWD:/data vimagick/youtube-dl'
 
 # List all network connections with nets:
 alias nets="lsof -i"
