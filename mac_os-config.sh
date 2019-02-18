@@ -8,11 +8,11 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 printf "Keyboard - Enable keyboard access for all controls\n"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# printf "Keyboard - Set a fast keyboard repeat rate\n"
-# defaults write NSGlobalDomain KeyRepeat -int 0
+printf "Keyboard - Set a fast keyboard repeat rate\n"
+defaults write NSGlobalDomain KeyRepeat -int 0
 
-# printf "Keyboard - Disable press-and-hold for keys in favor of key repeat\n"
-# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+printf "Keyboard - Disable press-and-hold for keys in favor of key repeat\n"
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 printf "Dock - Remove all default app icons\n"
 defaults write com.apple.dock persistent-apps -array && killall Dock
@@ -42,8 +42,8 @@ hidutil property --set '{"UserKeyMapping":
   "HIDKeyboardModifierMappingDst":0x7000000E0
   }]
 }'
-"To Key Remapping state: "
-"hidutil property --get "UserKeyMapping""
-"(null) if nothing chnaged"
-"more info:"
-"https://developer.apple.com/library/archive/technotes/tn2450/_index.html"
+# "To Key Remapping state: "
+# "hidutil property --get "UserKeyMapping""
+# "(null) if nothing chnaged"
+# "more info:"
+# "https://developer.apple.com/library/archive/technotes/tn2450/_index.html"
