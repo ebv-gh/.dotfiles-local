@@ -1,5 +1,7 @@
+# git
 alias gcm="git commit -m"
-alias ga="git add"
+alias ga="git add ."
+alias gp="git push"
 
 # brew
 alias b="brew"
@@ -26,3 +28,9 @@ alias speedtest="curl -o /dev/null http://ovh.net/files/100Mio.dat"
 
 # Show WAN IP address with myip:
 alias myip="curl ifconfig.co"
+
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
