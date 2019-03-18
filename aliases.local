@@ -8,6 +8,20 @@ alias bs="brew search"
 alias bci="brew cask install"
 alias bug="brew upgrade"
 
+# docker
+alias dm="docker-machine"
+alias d="docker"
+
+# VBox
+alias vbox="VBoxManage"
+
+# lsd
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
 # macOS
 alias dutil="diskutil"
 alias gcc="gcc -Wall -Wextra -Werror"
