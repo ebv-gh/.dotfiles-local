@@ -1,6 +1,9 @@
 mkdir -p /tmp/.$(whoami)-brew-locks
 export PATH="$HOME/.brew/bin:$PATH"
 
+# android adb
+export PATH="$HOME/src/.bin/platform-tools/:$PATH"
+
 # 42 header variabiles
 USER="eubotnar"
 MAIL="eubotnar@student.42.us.org"
