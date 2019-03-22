@@ -5,6 +5,11 @@ set tabstop=4
 set shiftwidth=4
 " set shiftround
 " set expandtab
+set nolist
+
+" CryptMethod
+set cm=blowfish2
+
 
 " Disable tab autocomplete
 iunmap <Tab>
