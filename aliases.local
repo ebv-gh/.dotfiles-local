@@ -17,6 +17,9 @@ alias gcc="gcc -Wall -Wextra -Werror"
 # vm's
 alias void="kitty +kitten ssh -p 2323 ebv@127.0.0.1"
 
+# docker
+alias dcp="docker-compose"
+
 # youtube-dl
 alias yt='docker run --rm -u $(id -u):$(id -g) -v $PWD:/data vimagick/youtube-dl'
 
