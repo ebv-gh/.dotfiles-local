@@ -8,6 +8,7 @@ alias b="brew"
 alias bi="brew install"
 alias bs="brew search"
 alias bci="brew cask install"
+alias cask="brew cask"
 alias bug='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # macOS
@@ -15,10 +16,18 @@ alias dutil="diskutil"
 alias gcc="gcc -Wall -Wextra -Werror"
 
 # vm's
+alias startvoid="vbox startvm void --type headless"
 alias void="kitty +kitten ssh -p 2323 ebv@127.0.0.1"
+alias whonix="vbox startvm Whonix-Gateway-CLI; vbox startvm Whonix-Workstation-XFCE"
+# alias whonix="vbox startvm Whonix-Gateway-XFCE --type headless;\
+# 	vbox startvm Whonix-Workstation-XFCE"
+
+# vbox
+alias vbox="VBoxManage"
 
 # docker
 alias dcp="docker-compose"
+alias d="docker"
 
 # youtube-dl
 alias yt='docker run --rm -u $(id -u):$(id -g) -v $PWD:/data vimagick/youtube-dl'
@@ -32,6 +41,7 @@ alias speedtest="curl -o /dev/null http://ovh.net/files/100Mio.dat"
 # Show WAN IP address with myip:
 alias myip="curl ifconfig.co"
 
+# LSD
 alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
