@@ -10,3 +10,4 @@ Plug 'pbondoer/vim-42header'
 
 " LaTeX sytaxhighlight
 Plug 'lervag/vimtex'
+
